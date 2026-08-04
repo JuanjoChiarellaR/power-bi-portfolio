@@ -25,6 +25,7 @@ Click on any project below to explore the full case.
 | Project | Description | Tools & Techniques | Link |
 |---|---|---|---|
 | Financial Markets Analytics | Compares performance, risk, and diversification across financial assets (equities, fixed income, commodities, real assets) | Power BI, DAX, Forecasting, Clustering, Natural Language Q&A, Row-Level Security, Snowflake/MySQL/Excel integration | [View project](01-financial-markets-analytics/) |
+| Commercial & Customer Intelligence Suite | Specialized reports for customer, order, product, commercial, and executive analysis, consolidated through a Power BI Service dashboard | Power BI Desktop, Power BI Service, pinned tiles, forecasting, natural-language Q&A, KPI reporting, implicit aggregations | [View project](02-commercial-customer-intelligence-suite/) |
 
 ## Contact
 

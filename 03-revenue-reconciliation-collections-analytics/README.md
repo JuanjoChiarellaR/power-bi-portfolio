@@ -2,9 +2,15 @@
 
 A Power BI solution for revenue recognition, receivables monitoring, deferred revenue, and financial data-quality control.
 
-## Project Overview
+## Executive Overview
 
-This project analyzes a real-world revenue recognition and collections challenge for a global experiential-education organization, using a business dataset to design and build a board-level Power BI solution. The solution ingests transactional data from a cloud-hosted MySQL database into Power BI, structures the data into an analytical model, translates fiscal-year recognition rules into DAX, and delivers board-level insights on earned revenue, cash collections, outstanding receivables, deferred revenue, and source-system anomalies.
+**Business Need:** Finance needs to distinguish earned revenue, cash collected, outstanding receivables, and deferred revenue when payments arrive months before service delivery and programs cross fiscal-year boundaries.
+
+**Solution:** A board-level Power BI solution that ingests transactional data from a cloud-hosted MySQL database and reconciles these figures by fiscal year, while flagging source-system posting anomalies.
+
+**How It Works:** Data is imported into Power BI, modeled around two fact tables and shared dimensions, with fiscal-year revenue-recognition logic built in DAX (including a custom fiscal-year calendar); results are delivered as a two-page executive report plus a corrected board brief.
+
+**Outcome:** Lets finance leadership see, per fiscal year, what's actually earned versus collected, what's still outstanding, and which data-quality issues need fixing before fiscal close.
 
 ## Business Problem
 

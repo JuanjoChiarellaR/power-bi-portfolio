@@ -1,8 +1,16 @@
 # Commercial & Customer Intelligence Suite
 
-## Project Overview
+Specialized Power BI reports for customer, order, product, and commercial analysis, consolidated through a Power BI Service dashboard.
 
-This project is a suite of five specialized Power BI reports — covering customers, orders, products, commercial performance, and executive KPIs — connected through a consolidated Power BI Service dashboard. Rather than building one crowded report, each business domain gets its own focused analytical view, and the most important metrics from all five are then pinned together into a single executive monitoring layer.
+## Executive Overview
+
+**Business Need:** Business leaders need one place to monitor sales, customers, products, orders, and marketing investment, instead of moving between disconnected reports and reconciling them manually.
+
+**Solution:** Five specialized Power BI reports — customer, order, product, commercial performance, and executive summary — designed to be consolidated into a single Power BI Service executive dashboard via pinned tiles.
+
+**How It Works:** Each report focuses on one business domain using KPI cards and aggregated visuals; the executive summary report adds a sales forecast and natural-language Q&A; key visuals from all five are then pinned into one monitoring page.
+
+**Outcome:** Gives leadership a one-page view of commercial health while preserving full drill-down access to each underlying report. The consolidated dashboard itself is still pending (see Limitations and Next Steps).
 
 ## Business Problem
 

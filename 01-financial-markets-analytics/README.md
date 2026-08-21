@@ -1,5 +1,17 @@
 # Financial Markets Analytics
 
+Compares performance, risk, and diversification across equities, fixed income, commodities, and real assets.
+
+## Executive Overview
+
+**Business Need:** Investors and analysts need to compare performance, risk, and diversification across asset classes, which typically means pulling data from multiple sources and recalculating risk metrics by hand.
+
+**Solution:** A single governed Power BI dashboard that compares returns, volatility, risk-adjusted performance, and correlation across equities, fixed income, commodities, and real assets.
+
+**How It Works:** A multi-agent pipeline pulls market data into Snowflake, where views compute returns and correlations; Power BI connects to those views and adds DAX-driven interactivity — dynamic date ranges, ticker selection, and forecasting.
+
+**Outcome:** Lets a user quickly identify the strongest risk-adjusted performers, the least volatile assets, and which combinations genuinely diversify a portfolio, for any period or asset selection.
+
 ## Business Problem
 Investors and analysts often need to compare performance, risk, and diversification across asset classes, but doing so typically means pulling data from multiple sources and recalculating risk metrics manually in spreadsheets. This project consolidates multi-asset market data into a single Power BI dashboard that lets users compare returns, volatility, risk-adjusted performance, and correlation across equities, fixed income, commodities, and real assets — using a single, governed data model instead of ad hoc analysis.
 

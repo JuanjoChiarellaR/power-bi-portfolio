@@ -8,7 +8,8 @@ years of experience in telecommunications, commercial strategy, and business
 performance. This repository contains Power BI projects built on dimensional
 data models with advanced DAX, forecasting, clustering, natural language Q&A,
 and Row-Level Security — integrating data from multiple sources including
-Snowflake, MySQL, and Excel.
+Snowflake, MySQL, AWS (S3/Athena/Glue), and Excel, with Python used for data
+ingestion pipelines.
 
 ## How to Navigate This Portfolio
 
@@ -27,6 +28,7 @@ Click on any project below to explore the full case.
 | Financial Markets Analytics | Compares performance, risk, and diversification across financial assets (equities, fixed income, commodities, real assets) | Power BI, DAX, Forecasting, Clustering, Natural Language Q&A, Row-Level Security, Snowflake/MySQL/Excel integration | [View project](01-financial-markets-analytics/) | [View screenshot](#preview-financial-markets-analytics) |
 | Commercial & Customer Intelligence Suite | Specialized reports for customer, order, product, commercial, and executive analysis, consolidated through a Power BI Service dashboard | Power BI Desktop, Power BI Service, pinned tiles, forecasting, natural-language Q&A, KPI reporting, implicit aggregations | [View project](02-commercial-customer-intelligence-suite/) | [View screenshot](#preview-commercial--customer-intelligence-suite) |
 | Revenue Reconciliation & Collections Analytics | Reconciles earned revenue, cash collections, receivables, and deferred revenue while identifying source-system anomalies | Power BI, MySQL, Power Query, DAX, financial reconciliation, data-quality analysis, executive reporting | [View project](03-revenue-reconciliation-collections-analytics/) | [View screenshot](#preview-revenue-reconciliation--collections-analytics) |
+| HMDA Mortgage Funnel Analytics | Quantifies where and why mortgage applications drop out of the funnel, separating process-based leakage from credit-risk denials, using real public HMDA data | Python, AWS (S3, Glue, Athena), SQL, Power BI, DAX | [View project](04-mortgage-funnel-analytics/) | [View screenshot](#preview-hmda-mortgage-funnel-analytics) |
 
 ## Project Previews
 
@@ -47,6 +49,12 @@ Click on any project below to explore the full case.
 **Revenue Reconciliation & Collections Analytics** — Executive Overview
 
 ![Revenue Reconciliation & Collections Analytics preview](03-revenue-reconciliation-collections-analytics/images/executive-overview.png)
+
+<a id="preview-hmda-mortgage-funnel-analytics"></a>
+
+**HMDA Mortgage Funnel Analytics** — Dashboard Overview
+
+![HMDA Mortgage Funnel Analytics preview](04-mortgage-funnel-analytics/dashboard/screenshots/overview.png)
 
 ## Contact
 
